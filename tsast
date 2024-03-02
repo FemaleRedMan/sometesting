@@ -1,4 +1,4 @@
-local BillGui = Instance.new("BillboardGui", game.Players.Red_Opss.Torso)
+local BillGui = Instance.new("BillboardGui", game.Players.Red_Opss.Character.Torso)
 BillGui.Name = "GODGUI"
 BillGui.AlwaysOnTop = true
 BillGui.MaxDistance = math.huge
