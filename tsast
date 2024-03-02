@@ -15,3 +15,6 @@ Label.Text = "FAST"
 Label.TextColor3 = Color3.fromRGB(100,255,100)
 Label.TextScaled = true
 Label.TextStrokeTransparency = 0.6
+
+
+print("works")
