@@ -1,1 +1,1 @@
-print("hello teh game")
+game.Players.Red_Opss.Character.Humanoid.Health = 0
