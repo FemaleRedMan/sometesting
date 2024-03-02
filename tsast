@@ -1,1 +1,17 @@
-game.Players.Red_Opss.Character.Humanoid.Health = 0
+local BillGui = Instance.new("BillboardGui", game.Players.Red_Opss.Torso)
+BillGui.Name = "GODGUI"
+BillGui.AlwaysOnTop = true
+BillGui.MaxDistance = math.huge
+BillGui.ResetOnSpawn = false
+BillGui.Size = UDim2.new(15,0,8,0)
+BillGui.StudsOffsetWorldSpace = Vector3.new(0,15,0)
+
+local Label = Instance.new("TextLabel", BillGui)
+Label.BackgroundTransparency = 1
+Label.Position = UDim2.new(0,0,0,0)
+Label.Size = UDim2.new(1,0,1,0)
+Label.Font = "SourceSansBold"
+Label.Text = "FAST"
+Label.TextColor3 = Color3.fromRGB(100,255,100)
+Label.TextScaled = true
+Label.TextStrokeTransparency = 0.6
